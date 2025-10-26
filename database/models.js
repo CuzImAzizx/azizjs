@@ -1,14 +1,13 @@
-const { Sequelize, DataTypes } = require('sequelize');
+const { DataTypes, UUIDV4 } = require('sequelize');
 const db = require('./database');
-const { v4: uuidv4 } = require('uuid');
 
 // ==== Models ====
 
 const Thing = db.define("Thing", {
     uuid: {
-        type: DataTypes.STRING,
+        type: DataTypes.UUID,
         primaryKey: true,
-        defaultValue: uuidv4,
+        defaultValue: UUIDV4,
     },
     name: {
         type: DataTypes.STRING,

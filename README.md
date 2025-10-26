@@ -29,7 +29,7 @@ I have built this framework for my personal use and needs. I installed and confi
 
 - **Yup**: For backend validation.
 
-- **Bootstrap 5.3 @ Fontawesome Free 7.1**: Installed and served from within Express.js.
+- **Bootstrap 5.3 & Fontawesome Free 7.1**: Installed and served from within Express.js.
 
 ## Structure
 
